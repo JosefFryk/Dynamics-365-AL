@@ -1,0 +1,34 @@
+{
+  "id": "cfa29bf7-ddeb-4f2f-8477-c6a7672cb443",
+  "name": "test3",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "Lorem ipsum",
+  "description": "BC extension",
+  "contextSensitiveHelpUrl": "https://mysite.com/documentation/",
+  "privacyStatement": "https://my.company.com/privacy",
+  "EULA": "https://my.company.com/eula",
+  "help": "https://my.company.com/help",
+  "url": "https://my.company.com/",
+  "logo": "Logo.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "20.0.0.0",
+  
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50150
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "9.0",
+  "features": [
+    "TranslationFile"
+  ]
+}

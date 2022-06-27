@@ -1,0 +1,21 @@
+Exercise - Custom functions
+
+You are a business systems developer for CRONUS International Ltd. You are learning how to develop customizations for Business Central and how to program in AL to customize solutions for customers. You want to customize the Customer Card page by adding an action that adjusts a customer's credit limit based on the customer's previous sales history or resets the limit to zero if no transactions occurred.
+
+You've been given the following requirements:
+
+A customer's credit limit can't exceed 50 percent of total sales revenue for the customer in the past 12 months.
+
+The customer's credit limit must always be rounded to the nearest 10,000.
+
+If the credit limit is rounded during the process, the application must send notification to the user.
+
+If the new credit limit does not differ from the old one, the application must send notification to the user.
+
+If the customer has no sales history over the past 12 months, the credit limit must be reset to zero.
+
+The function that sets the credit limit must be available to other objects.
+
+The Customer Card page must include an action that calls the function.
+
+If the function is called from the page action, and credit limit would be increased, the function must ask the user for confirmation before updating the credit limit.
